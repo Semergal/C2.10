@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<style>
+		.progress{
+			height: 35px;
+		}
+	</style>
+</head>
+
+<body>
+	
+	<div class="container text-center mt-5">
+		<h1>Votes ratio</h1>
+		<p>SSE requests from http://localhost:8080/results-for-sse</p>
+	<section class="mt-5 d-flex justify-content-center">
+        <div class="progress col-8 d-flex justify-content-center">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" id="cats" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+
+  			<div class="progress-bar progress-bar-striped bg-success progress-bar-animated" id="dogs" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+
+  			<div class="progress-bar progress-bar-striped bg-warning progress-bar-animated" id="parrots" role="progressbar" style="width: 60%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+    </section>
+	</div>
+	
+
+
+	<script src="js/script.js"></script>
+</body>
+
+</html>

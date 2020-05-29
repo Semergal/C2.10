@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<style>
+				.form>input{
+			margin-right: 15px;
+		}
+
+		.form-container{
+			margin-top: 200px;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container d-flex justify-content-center form-container">
+    
+		<form action="/sse/vote" method="POST" class="form">
+			
+			<label for="title">Cats</label>
+			<input type="radio" name="animal" value="cats">
+			<label for="title">Dogs</label>
+			<input type="radio" name="animal" value="dogs">
+			<label for="title">Parrots</label>
+			<input type="radio" name="animal" value="parrots">
+			<br>
+			<input type="submit" value="Submit">
+
+		</form>
+
+	</div>
+</body>
+
+</html>
